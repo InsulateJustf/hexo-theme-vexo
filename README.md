@@ -2,8 +2,7 @@
 
 > Vexo is a Hexo theme inspired by [Vue.js](https://cn.vuejs.org) official website.
 
-[![Build Status](https://travis-ci.org/yanm1ng/hexo-theme-vexo.svg?branch=master)](https://travis-ci.org/yanm1ng/hexo-theme-vexo)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 
 ## Intro
@@ -74,6 +73,11 @@ tags:
 Add this to the top of your article markdown file. 
 
 ## Change Log  
+
+**2018-10-06**
+* Add Page Links
+* Add Telegram in Page About
+
 **2017-09-21**
 * Added article catalog
 * Fixed bugs
@@ -151,13 +155,29 @@ weibo_username: your_weibo_account
 twitter_username: your_twitter_account
 github_username: your_github_account
 zhihu_username: your_zhihu_account
+telegram_username: your_telegram_username
+```
+
+## Friends
+
+You can add you friends' blog by just add string into source/_data/links.yml
+
+```
+LetITFly BBS:
+  link: https://bbs.letitfly.me
+  descr: "不只是 MAT"
+
+Name:
+  link: link
+  descr: "description"
 ```
 
 ## About
 
 - Give a star if you like , fork or just clone to use , and also you can help me fix bugs and add new feature :)
 - If you have any problem or requirement , just open an issue here and i will help you.
-- Thanks to [@imsun](https://github.com/imsun) , [@Evan You](https://github.com/yyx990803) and [@Hexo](https://hexo.io).
+- Thanks to [@yanm1ng](https://github.com/yanm1ng) , [@imsun](https://github.com/imsun) , [@Evan You](https://github.com/yyx990803) and [@Hexo](https://hexo.io).
+- Modify by Justf
 
 ## LICENSE
 MIT
