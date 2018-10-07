@@ -30,10 +30,12 @@
 
    ```
    cd your-hexo-folder
-
+   
    git clone https://github.com/yanm1ng/hexo-theme-vexo.git themes/vexo
-
+   
    cp -R themes/vexo/_source/* source/
+   
+   cp themes/vexo/_config.example.yml themes/vexo/_config.yml
    ```
 
 2. Update project `_config.yml` theme config, look like this
