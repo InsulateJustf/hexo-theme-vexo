@@ -76,7 +76,7 @@ Add this to the top of your article markdown file.
 
 **2018-10-06**
 * Add Page Links
-* Add Telegram in Page About
+* Add personal link icon Telegram in Page About
 
 **2017-09-21**
 * Added article catalog
